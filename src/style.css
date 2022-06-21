@@ -1,0 +1,12 @@
+body {
+  display: flex;
+}
+
+section {
+  margin: auto;
+  padding: 5%;
+}
+
+h2 {
+  padding-top: 20px;
+}
