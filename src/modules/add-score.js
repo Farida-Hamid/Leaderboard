@@ -1,7 +1,7 @@
-import fetchScores from './modules/display-scores.js';
+import sendScore from './modules/display-scores.js';
 
-const fetchScores = (url) => {
+const sendScore = (url) => {
 
 }
 
-export default fetchScores;
+export default sendScore;
