@@ -1,4 +1,5 @@
 const formData = document.querySelector('#add');
+/* eslint-disable import/prefer-default-export */
 
 export const sendScore = async (url) => {
   try {
@@ -17,9 +18,7 @@ export const sendScore = async (url) => {
     formData.score.value = '';
 
     return message.json();
-  }
-   catch (error) {
-    console.log(error);
+  } catch (error) {
     return false;
   }
 };
