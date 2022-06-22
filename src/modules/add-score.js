@@ -1,7 +1,5 @@
-import sendScore from './modules/display-scores.js';
+const formData = document.querySelector('#add');
 
-const sendScore = (url) => {
+export const sendScore = async (url) => {
 
-}
-
-export default sendScore;
+};

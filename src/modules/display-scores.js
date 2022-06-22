@@ -1,7 +1,6 @@
 const scores = document.querySelector('.scores');
 
-const fetchScores = (url) => {
-  console.log('refreshed');
+export const fetchScores = async (url) => {
   scores.innerHTML = '';
 
   fetch(url)
@@ -11,7 +10,5 @@ const fetchScores = (url) => {
         scores.innerHTML += `
       <li>${data.user}: ${data.score}</li>`;
       });
-    });
+  });
 };
-
-export default fetchScores;
