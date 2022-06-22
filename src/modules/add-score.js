@@ -13,6 +13,9 @@ export const sendScore = async (url) => {
       },
     });
 
+    formData.name.value = '';
+    formData.score.value = '';
+
     return message.json();
   }
    catch (error) {
