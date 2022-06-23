@@ -18,7 +18,7 @@ h1 {
 #head-score {
   display: flex;
   align-items: baseline;
-  gap: 3%;
+  justify-content: space-between;
 }
 
 button {
@@ -52,6 +52,14 @@ form {
   position: absolute;
   right: 0;
   width: fit-content;
+}
+
+button,
+#submit {
+  background: white;
+  border-radius: 0;
+  border: solid;
+  box-shadow: 5px 5px;
 }
 
 @media (min-width: 768px) {
