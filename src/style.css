@@ -1,6 +1,9 @@
 body {
   display: flex;
   padding: 5% 15%;
+  font-size: small;
+  font-family: monospace;
+  gap: 5%;
 }
 
 section {
