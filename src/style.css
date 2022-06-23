@@ -25,6 +25,19 @@ button {
   height: fit-content;
 }
 
+.scores {
+  border: 3px solid;
+}
+
+li {
+  list-style: none;
+  padding: 3%;
+}
+
+li:nth-child(odd) {
+  background-color: gainsboro;
+}
+
 @media (min-width: 768px) {
   body {
     font-size: larger;
