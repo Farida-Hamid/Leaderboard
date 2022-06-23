@@ -10,5 +10,10 @@ section {
 
 h1 {
   position: absolute; 
-  padding-left: 7%;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size:larger;
+  }
 }
