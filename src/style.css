@@ -12,7 +12,17 @@ section {
 }
 
 h1 {
-  position: absolute; 
+  position: absolute;
+}
+
+#head-score {
+  display: flex;
+  align-items: baseline;
+  gap: 3%;
+}
+
+button {
+  height: fit-content;
 }
 
 @media (min-width: 768px) {
