@@ -15,33 +15,21 @@
 - Linters
 - Github actions
 
-## Source Code
-
-[Source Code](https://farida-hamid.github.io/Leaderboard)
-
 ## Live Demo
 
 [Click here](https://farida-hamid.github.io/Leaderboard/dist) to find the website.
 
 ## Getting Started
 
-**Clone the repo into your local machine.**
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-NPM should be installed
-
 ### Install
 
-run `npm install` in the project folder.
+Run `npm install` in the project folder.
 
 ### Usage
 
-open `index.html`.
+Open `index.html`.
 
-run `npm run start`.
+Run `npm run start`.
 
 ## Author
 
