@@ -1,12 +1,75 @@
 body {
   display: flex;
+  padding: 5% 15%;
+  font-size: small;
+  font-family: monospace;
+  gap: 5%;
 }
 
 section {
   margin: auto;
-  padding: 5%;
+  margin-top: 70px;
 }
 
-h2 {
-  padding-top: 20px;
+h1 {
+  position: absolute;
+}
+
+#head-score {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+button {
+  height: 30px;
+}
+
+.scores {
+  border: 3px solid;
+}
+
+li {
+  list-style: none;
+  padding: 3%;
+}
+
+li:nth-child(even) {
+  background-color: gainsboro;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+form {
+  position: relative;
+}
+
+#submit {
+  position: absolute;
+  right: 0;
+  width: fit-content;
+}
+
+button,
+#submit {
+  background: white;
+  border-radius: 0;
+  border: solid;
+  box-shadow: 5px 5px;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: larger;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    font-size: xx-large;
+  }
 }
