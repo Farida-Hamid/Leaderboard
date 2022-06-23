@@ -1,12 +1,18 @@
 body {
   display: flex;
+  padding: 5%;
 }
 
 section {
   margin: auto;
-  padding: 5%;
+  margin-top: 8%;
 }
 
 h2 {
   padding-top: 20px;
+}
+
+h1 {
+  position: absolute; 
+  padding-left: 10%;
 }
