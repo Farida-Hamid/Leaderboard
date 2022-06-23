@@ -14,6 +14,12 @@ h1 {
 
 @media (min-width: 768px) {
   body {
-    font-size:larger;
+    font-size: larger;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    font-size: xx-large;
   }
 }
