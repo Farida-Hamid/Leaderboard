@@ -38,6 +38,10 @@ li:nth-child(odd) {
   background-color: gainsboro;
 }
 
+input {
+  margin-bottom: 10%;
+}
+
 @media (min-width: 768px) {
   body {
     font-size: larger;
